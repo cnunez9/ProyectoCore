@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace WebAPI.Controllers
 {
     // http://localhost:5000/api/Cursos
-    //Gi
+    //GitM
     [Route("api/[controller]")]
     [ApiController]
     public class CursosController : ControllerBase
