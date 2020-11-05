@@ -14,8 +14,9 @@ namespace Persistencia
             modelBuilder.Entity<Precio>().Property(c => c.PrecioActual).HasColumnType("decimal(18, 4)");
             modelBuilder.Entity<Precio>().Property(c => c.Promocion).HasColumnType("decimal(18, 4)");
         }
-
+        //Comentario
         public DbSet<Comentario> Comentario {get;set;}
+
         public DbSet<Curso> Curso {get;set;}
         public DbSet<CursoInstructor> CursoInstructor {get;set;}
         public DbSet<Instructor> Instructor {get;set;}
